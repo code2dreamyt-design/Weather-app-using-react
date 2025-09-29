@@ -159,7 +159,7 @@ const getWeatherIcon = (code, is_day) => {
   return (
     
     <> 
-   <div className='min-h-screen w-full  bg-cover bg-no-repeat bg-center text-white '  style={{ backgroundImage: `url('//assets/bgImages/partlynightcloud.webp')` }}>
+   <div className='min-h-screen w-full  bg-cover bg-no-repeat bg-center text-white '  style={{ backgroundImage: `url('/assets/bgImages/partlynightcloud.webp')` }}>
            <Nav
         locationData={locationData}
     getSearchedData={getSearchedData} 
