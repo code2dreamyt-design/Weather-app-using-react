@@ -5,7 +5,6 @@ import TodayWeather from './TodayWeather'
 import OtherWeather from './OtherWeather'
 import Nav from './Nav'
 import axios from 'axios'
-import hero from '../assets/bgImages/partlynightcloud.webp';
 
 const Main = ({api_key}) => {
   const [data,setData] = useState('loading...');
@@ -160,7 +159,7 @@ const getWeatherIcon = (code, is_day) => {
   return (
     
     <> 
-   <div className='min-h-screen w-full  bg-cover bg-no-repeat bg-center text-white '  style={{ backgroundImage: `url(${hero})` }}>
+   <div className='min-h-screen w-full  bg-cover bg-no-repeat bg-center text-white '  style={{ backgroundImage: `url('/assets/bgImages/partlynightcloud.webp')` }}>
            <Nav
         locationData={locationData}
     getSearchedData={getSearchedData} 
