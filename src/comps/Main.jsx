@@ -84,75 +84,75 @@ const getWeatherIcon = (code, is_day) => {
   switch (code) {
     // --- Clear Sky ---
     case 0:
-      return `src/assets/images/0_${is_day ? "0" : "1"}.png`;
+      return `assets/images/0_${is_day ? "0" : "1"}.png`;
 
     // --- Mainly clear, partly cloudy, overcast ---
     case 1:
     case 2:
-       return `src/assets/images/${code}_${is_day ? "0" : "1"}.png`;
-    case 3: return "src/assets/images/3_0.png"
+       return `assets/images/${code}_${is_day ? "0" : "1"}.png`;
+    case 3: return "assets/images/3_0.png"
      
 
     // --- Fog & rime fog ---
     case 45:
     case 48:
-      return "src/assets/images/45_48.png";
+      return "assets/images/45_48.png";
 
     // --- Drizzle: light, moderate, dense ---
     case 51:
     case 53:
     case 55:
-      return `src/assets/images/${code}.png`;
+      return `assets/images/${code}.png`;
 
     // --- Freezing drizzle ---
     case 56:
     case 57:
-      return "src/assets/images/56_57.png";
+      return "assets/images/56_57.png";
 
     // --- Rain: slight, moderate, heavy ---
     case 61:
     case 63:
     case 65:
-      return `src/assets/images/${code}.png`;
+      return `assets/images/${code}.png`;
 
     // --- Freezing rain ---
     case 66:
     case 67:
-      return "src/assets/images/66_67.png";
+      return "assets/images/66_67.png";
 
     // --- Snow fall: slight, moderate, heavy ---
     case 71:
     case 73:
     case 75:
-      return `src/assets/images/${code}.png`;
+      return `assets/images/${code}.png`;
 
     // --- Snow grains ---
     case 77:
-      return "src/assets/images/77.png";
+      return "assets/images/77.png";
 
     // --- Rain showers: slight, moderate, violent ---
     case 80:
     case 81:
     case 82:
-      return `src/assets/images/${code}_${is_day ? "0" : "1"}.png`;
+      return `assets/images/${code}_${is_day ? "0" : "1"}.png`;
 
     // --- Snow showers ---
     case 85:
     case 86:
-      return `src/assets/images/85_86_${is_day ? "0" : "1"}.png`;
+      return `assets/images/85_86_${is_day ? "0" : "1"}.png`;
 
     // --- Thunderstorm ---
     case 95:
-      return "src/assets/images/95.png";
+      return "assets/images/95.png";
 
     // --- Thunderstorm with hail ---
     case 96:
     case 99:
-      return "src/assets/images/96_99.png";
+      return "assets/images/96_99.png";
 
     // --- Default fallback ---
     default:
-      return `src/assets/images/1_${is_day ? "0" : "1"}.png`;
+      return `assets/images/1_${is_day ? "0" : "1"}.png`;
   }
 };
 

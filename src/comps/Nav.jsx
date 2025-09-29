@@ -1,8 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
-import logo from '../assets/logos/img1.png';
-import logo2 from '../assets/logos/biglogo.svg';
 
 const Nav = ({ getSearchedData, locationData, getLatLon}) => {
   const [display, setDisplay] = useState('hidden');
@@ -16,8 +14,8 @@ const Nav = ({ getSearchedData, locationData, getLatLon}) => {
           
           {/* Logo */}
           <div className=' w-[10%] md:w-[20%]  h-full flex  items-center p-1 ml-1'>
-            <img src={logo} alt="" className='rounded-[50%] md:hidden w-9'/> 
-            <img src={logo2} alt="" className='hidden h-[auto] max-w-40 md:block'/>
+            <img src='/assets/logos/img1.png' alt="" className='rounded-[50%] md:hidden w-9'/> 
+            <img src={'/assets/logos/biglogo.svg'} alt="" className='hidden h-[auto] max-w-40 md:block'/>
           </div>
 
           {/* Search bar */}
