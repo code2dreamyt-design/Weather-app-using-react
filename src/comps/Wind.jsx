@@ -36,7 +36,7 @@ useEffect(()=>{
             </div>
             </div>
             <div className='h-[80%] w-[30%] flex justify-center items-start text-white'>
-              <img src="/assets/compass.png" alt="" className='w-21 h-2w-21' />
+              <img src="/Weather-app-using-react/assets/compass.png" alt="" className='w-21 h-2w-21' />
             </div>     
     </>
   )
