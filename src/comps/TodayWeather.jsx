@@ -63,9 +63,9 @@ const showDayTime = () => {
 
 const setIcon = ()=>{
   if(clickbtn.daybtn){
-    return DailyWeather ? getWeatherIcon(DailyWeather.weathercode[Math.floor(indexVal.start/24)],1):'loading';
+    return DailyWeather ? getWeatherIcon(DailyWeather.weathercode[Math.floor(indexVal.start/24)],1):'/Weather-app-using-react/assets/images/loading.gif';
   }else{
-    return hourlyForecast? getWeatherIcon(hourlyForecast.weathercode[hIndex],hourlyForecast.is_day[hIndex]):'loading..'
+    return hourlyForecast? getWeatherIcon(hourlyForecast.weathercode[hIndex],hourlyForecast.is_day[hIndex]):'/Weather-app-using-react/assets/images/loading.gif'
   }
 }
 
