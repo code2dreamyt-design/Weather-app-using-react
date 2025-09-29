@@ -14,8 +14,8 @@ const Nav = ({ getSearchedData, locationData, getLatLon}) => {
           
           {/* Logo */}
           <div className=' w-[10%] md:w-[20%]  h-full flex  items-center p-1 ml-1'>
-            <img src='/assets/logos/img1.png' alt="" className='rounded-[50%] md:hidden w-9'/> 
-            <img src={'/assets/logos/biglogo.svg'} alt="" className='hidden h-[auto] max-w-40 md:block'/>
+            <img src='/Weather-app-using-react/assets/logos/img1.png' alt="" className='rounded-[50%] md:hidden w-9'/> 
+            <img src={'/Weather-app-using-react/assets/logos/biglogo.svg'} alt="" className='hidden h-[auto] max-w-40 md:block'/>
           </div>
 
           {/* Search bar */}
